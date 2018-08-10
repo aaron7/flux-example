@@ -12,9 +12,9 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: quay.io/weaveworks/helloworld:master-a000001
+        image: weaveworks/hello-world:latest
         args:
-        - -msg=Ahoy there, weavers !!!!@!@dsfsdfds!
+        - -greeting=Ahoy!
         ports:
         - containerPort: 80
       - name: sidecar
