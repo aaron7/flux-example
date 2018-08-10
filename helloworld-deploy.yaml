@@ -14,7 +14,7 @@ spec:
       - name: helloworld
         image: weaveworks/hello-world:latest
         args:
-        - -greeting=Ahoy there!
+        - -greeting=Ahoy there, Weavers!
         ports:
         - containerPort: 80
       - name: sidecar
